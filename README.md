@@ -23,7 +23,8 @@ Then add a reference to this plugin and selected rules in your eslint config:
   ],
   "rules": {
     "mocha/no-exclusive-tests": "error"
-  }
+  },
+  "env": ["mocha"]
 }
 ```
 See [Configuring Eslint](http://eslint.org/docs/user-guide/configuring) on [eslint.org](http://eslint.org) for more info.
